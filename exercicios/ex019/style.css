@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/* Variáveis de Cores */
+:root {
+    --chocolate-color: chocolate;
+    --highlight-color: rgb(1, 230, 230);
+    --neutral-color: rgb(131, 224, 131);
+    --green-color: rgb(255, 14, 255); /* RGB inicial para a classe .ff */
+}
+
+/* Estilos Gerais */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Títulos */
+h1 {
+    background-color: var(--chocolate-color);
+}
+
+h2 {
+    background-color: var(--highlight-color);
+    text-align: left; /* Ajuste para melhor aparência */
+    padding: 8px;
+}
+
+/* Seletor de ID */
+#N {
+    background-color: var(--neutral-color);
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Classe ff */
+.ff {
+    background-color: var(--green-color); /* Modifique o valor RGB da variável para ajustar a cor */
+}
+.JJ{
+    background-color: rgb(215, 238, 6);
+    text-align: justify;
+}
+
+

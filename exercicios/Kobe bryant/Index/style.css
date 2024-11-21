@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+h1{
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 200px;
+    font-style: normal;
+    background-color: #F6B93B;
+    max-width: 300px;
+    
+    margin: auto; 
+    margin-bottom: 20px;
+}
+body{
+    font-family: Arial, sans-serif; /* Altera a fonte do texto */
+background-color: #552583; /* Cor de fundo da página */
+margin: 0; /* Remove margens da página */
+padding: 20px; /* Adiciona espaçamento ao redor do conteúdo */
+}
+
+#KK {
+   display: flex;
+   text-align: center;
+   background-color: #F6B93B;
+   border-radius: 15px;
+   font-weight: 600;
+   margin-bottom: 15px;
+   
+}
+
+#KK img {
+    max-width: 400px; /* Ajuste a largura conforme necessário */
+    border-radius: 15px;
+   
+    
+}
+.BB {
+    display: flex;
+    align-items: center; /* Centraliza o texto verticalmente */
+    justify-content: center; 
+     flex-direction: column;
+     text-align: justify;
+}
+.BB h2 {
+    font-size: 2em; /* Tamanho do título */
+    font-weight: bold; /* Deixa o título mais forte */
+    margin-bottom: 15px; /* Espaço abaixo do título */
+    color: #1C1C1C; /* Cor do título */
+    text-transform: uppercase; /* Deixa o texto em maiúsculas */
+    letter-spacing: 2px; /* Espaço entre as letras */
+    font-family: 'Arial', sans-serif; /* Escolha de fonte */
+    text-align: top; /* Alinha o título ao centro */
+    padding: 10px 0; /* Espaçamento ao redor do título */
+    border-bottom: 2px solid #333; /* Linha abaixo do título */
+}
+#Kid {
+    display: flex;
+    align-items: center; /* Alinha a imagem e o texto no centro verticalmente */
+    gap: 20px; /* Espaço entre a imagem e o texto */
+    padding: 20px;
+    text-align: center;
+    background-color: #F6B93B;
+    border-radius: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#Kid img {
+    max-width: 380px; /* Ajuste a largura conforme necessário */
+    border-radius: 15px;
+}
+#VV h2{
+    font-size: 2em; /* Tamanho do título */
+    font-weight: bold; /* Deixa o título mais forte */
+    margin-bottom: 15px; /* Espaço abaixo do título */
+    color: #1C1C1C; /* Cor do título */
+    text-transform: uppercase; /* Deixa o texto em maiúsculas */
+    letter-spacing: 2px; /* Espaço entre as letras */
+    font-family: 'Arial', sans-serif; /* Escolha de fonte */
+    text-align: top; /* Alinha o título ao centro */
+    padding: 10px 0; /* Espaçamento ao redor do título */
+    border-bottom: 2px solid #333; /* Linha abaixo do título */ 
+}
+.Draft{
+    text-align: justify;
+    background-color: #F6B93B;
+    border-radius: 15px;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px;
+    
+    
+}
+.Draft-img{
+    border-radius: 15px;
+    max-width: 1200px;
+    padding: 15,30 ;
+   
+}
+
+
+.Draft P {
+    padding: 10px;
+    text-align: justify;
+    
+}
+
+
+.Draft h2 {
+    flex-basis: 100%;
+    text-align: center; /* Centraliza o texto */
+    font-size: 2.5em;
+    font-weight: normal;
+    text-transform: uppercase; /* Primeira letra de cada palavra maiúscula */
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #333; /* Linha abaixo do título */
+    display: inline-block; /* Faz a borda ocupar apenas o tamanho do título */
+    padding-bottom: 5px; /* Ajuste o espaço entre o texto e a linha */
+   
+}
+.video {
+    background-color: #F6B93B;  
+    margin-top: 20px;           
+    border-radius: 15px;       
+    padding: 15px;           
+    display: flex;              
+    justify-content: center;    /* Centraliza o conteúdo horizontalmente */
+    align-items: center;        /* Centraliza o conteúdo verticalmente */
+}
+
+.video iframe {
+    width: 100%;                /* Faz o iframe ocupar toda a largura disponível */
+    max-width: 800px;           /* Limita a largura máxima do vídeo */
+    height: 315px;              /* Altura fixa do vídeo */
+    border-radius: 10px;        /* Bordas arredondadas no iframe */
+}

@@ -1,0 +1,59 @@
+#ss{
+    
+        font-family: "Rubik Wet Paint", system-ui;
+        font-weight: 200px;
+        font-style: normal;
+        background-color: #F6B93B;
+        max-width: 300px;
+        border-radius: 7px;
+        margin-left: 100px;   
+      
+}
+
+
+body {
+   
+font-family: Arial, sans-serif; /* Altera a fonte do texto */
+background-color: #552583; /* Cor de fundo da página */
+margin: 0; /* Remove margens da página */
+padding: 20px; /* Adiciona espaçamento ao redor do conteúdo */
+
+}
+
+.container {
+display: flex; /* Usa Flexbox para organizar o conteúdo */
+align-items: center; /* Alinha verticalmente ao centro */
+max-width: 600px; /* Largura máxima do box */
+padding: 20px; /* Espaçamento interno do box */
+background-color: #F6B93B; /* Cor de fundo do box */
+border-radius: 15px; /* Bordas arredondadas */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
+margin-bottom: 250px;
+display: block ;
+
+}
+
+.image {
+margin-left: 100px; /* Espaço entre o box e a imagem */
+width: 400px; /* Ajuste o tamanho da imagem conforme necessário */
+border-radius: 20px; /* Bordas arredondadas na imagem */
+margin-bottom: 180px;
+
+}
+
+
+#KK {
+        font-family: "Rubik Wet Paint", system-ui;
+        font-weight: 700; /* Peso da fonte corrigido */
+        font-style: normal;
+        background-color: #F6B93B;
+        max-width: 100px;
+        border-radius: 7px;
+        clear: both;
+        display: block;
+       
+    }
+    
+    
+
