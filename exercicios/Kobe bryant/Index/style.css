@@ -134,3 +134,41 @@ padding: 20px; /* Adiciona espaçamento ao redor do conteúdo */
     height: 315px;              /* Altura fixa do vídeo */
     border-radius: 10px;        /* Bordas arredondadas no iframe */
 }
+.tradding {
+    display: flex; /* Cria um layout flexível */
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    gap: 15px; /* Espaço entre os elementos */
+    background-color: #F6B93B;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.tradding > h2 {
+    font-size: 1.1em; /* Tamanho do título */
+    font-weight: bold; /* Deixa o título mais forte */
+    color: #1C1C1C; /* Cor do título */
+    text-transform: uppercase; /* Deixa o texto em maiúsculas */
+    letter-spacing: 2px; /* Espaço entre as letras */
+    font-family: 'Arial', sans-serif; /* Escolha de fonte */
+    text-align: center; /* Centraliza o texto dentro do elemento <h2> */
+    margin: 0 auto; /* Centraliza o título horizontalmente */
+   padding-top: 20px;
+   border-bottom: 1px solid #333;
+  
+}
+
+.tradding > img {
+    border-radius: 15px; /* Bordas arredondadas */
+    max-width: 700px; /* Limita a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    align-items: center; /* Alinha os itens à esquerda inicialmente */
+    padding: 10px;
+}
+.tradding > p {
+    font-weight: 200;
+    text-align: justify;
+    padding: 30px;
+    font-weight: bold;
+}

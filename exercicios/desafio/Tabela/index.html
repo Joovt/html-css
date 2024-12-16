@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+<style>
+   #ss{
+    background-color: aqua;
+   }
+    th, td{
+        border-collapse: collapse;
+        border: 1px solid black;
+        background-color: gray;
+        
+    }
+</style>
+<body>
+    <table>
+            <thead id="ss">
+              <tr>
+                <th rowspan="3">Área</th>
+                <th rowspan="3">Disciplinas</th>
+                <th colspan="2">Notas</th> <!-- "Notas" ocupa 2 colunas -->
+                <th rowspan="3">Média</th>
+              </tr>
+              <tr>
+                <th>Notas 1</th> <!-- Subtítulo 1 -->
+                <th>Notas 2</th> <!-- Subtítulo 2 -->
+              </tr>
+            </thead>
+          
+          
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="5">Exatas</td>
+            </tr>
+            <tr>
+                <td>matematica</td>
+                <td>7</td>
+                <td>6</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>fisica</td>
+                <td>5</td>
+                <td>9</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>quimica</td>
+                <td>8</td>
+                <td>3</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>4</td>
+                <td>6</td>
+                <td>5</td>
+            </tr>
+
+
+            <tr>
+               <td colspan="7">Media de exatas</td>
+
+            </tr>
+            
+           
+        </tbody>
+        <thead>
+            <tr>
+              <th rowspan="3">Humanas</th> <!-- "Humanas" ocupa 3 linhas -->
+              <td>História</td>
+              <td>0</td>
+              <td>7</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Geografia</td>
+              <td>10</td>
+              <td>7</td>
+              <td>5</td>
+            </tr>
+           
+          </thead>
+
+          
+    </table>
+</body>
+</html>
